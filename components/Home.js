@@ -33,7 +33,7 @@ function Home() {
     <div className={styles.popoverContent}>
       {likedMoviesPopover}
     </div>
-  );
+  )
 
   // Movies list
 
