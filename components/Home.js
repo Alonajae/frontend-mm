@@ -38,7 +38,7 @@ function Home() {
   // Movies list
 
   useEffect(() => {
-    fetch('https://backend-mm.vercel.app//movies')
+    fetch('https://backend-mm.vercel.app/movies')
       .then(response => response.json())
       .then(data => {
         const moviesData = data.movies.map((movie, i) => {
